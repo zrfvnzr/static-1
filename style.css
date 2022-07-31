@@ -1,0 +1,43 @@
+/* defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Roboto font */
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css?family=Roboto');
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+header h1 {
+    cursor: default;
+    transition: 0.25s;
+}
+header h1:hover {
+    transform: scale(1.05);
+    transform-origin: top left;
+}
+nav {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}
+nav a {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+    transition: 0.25s;
+    vertical-align: middle;
+}
+nav a:hover {
+    transform: scale(1.2);
+}
